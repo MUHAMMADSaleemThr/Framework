@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="12" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-10T22:30:39 EDT" name="Adhoc" finished-at="2022-05-10T22:31:49 EDT" duration-ms="70211">
+    <groups>
+    </groups>
+    <test started-at="2022-05-10T22:30:39 EDT" name="RegressionOfEdge" finished-at="2022-05-10T22:31:32 EDT" duration-ms="52831">
+      <class name="piit.AutomationTrainingProgram.Signout">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:piit.AutomationTrainingProgram.Signout@f78a47e]" started-at="2022-05-10T22:30:51 EDT" name="beforeClass" finished-at="2022-05-10T22:30:59 EDT" duration-ms="8505" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="f()[pri:1, instance:piit.AutomationTrainingProgram.Signout@f78a47e]" started-at="2022-05-10T22:30:59 EDT" name="f" finished-at="2022-05-10T22:31:24 EDT" duration-ms="24925" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method signature="TextVerificationMethod()[pri:2, instance:piit.AutomationTrainingProgram.Signout@f78a47e]" started-at="2022-05-10T22:31:24 EDT" name="TextVerificationMethod" finished-at="2022-05-10T22:31:31 EDT" depends-on-methods="piit.AutomationTrainingProgram.Signout.f" duration-ms="7045" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [Please enter your email or mobile number to search for your account.] but found [Please enter your email or mobile number  search for your account.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [Please enter your email or mobile number to search for your account.] but found [Please enter your email or mobile number  search for your account.]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at piit.AutomationTrainingProgram.Signout.TextVerificationMethod(Signout.java:56)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:32)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:467)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TextVerificationMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:piit.AutomationTrainingProgram.Signout@f78a47e]" started-at="2022-05-10T22:31:31 EDT" name="afterClass" finished-at="2022-05-10T22:31:32 EDT" duration-ms="499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- piit.AutomationTrainingProgram.Signout -->
+      <class name="piit.AutomationTrainingProgram.Execution">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:piit.AutomationTrainingProgram.Execution@644baf4a]" started-at="2022-05-10T22:30:39 EDT" name="beforeSuite" finished-at="2022-05-10T22:30:39 EDT" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:piit.AutomationTrainingProgram.Execution@644baf4a]" started-at="2022-05-10T22:30:39 EDT" name="beforeTest" finished-at="2022-05-10T22:30:39 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:piit.AutomationTrainingProgram.Execution@644baf4a]" started-at="2022-05-10T22:30:39 EDT" name="beforeClass" finished-at="2022-05-10T22:30:39 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:piit.AutomationTrainingProgram.Execution@644baf4a]" started-at="2022-05-10T22:30:39 EDT" name="beforeMethod" finished-at="2022-05-10T22:30:39 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="Test2()[pri:0, instance:piit.AutomationTrainingProgram.Execution@644baf4a]" started-at="2022-05-10T22:30:39 EDT" name="Test2" finished-at="2022-05-10T22:30:39 EDT" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:piit.AutomationTrainingProgram.Execution@644baf4a]" started-at="2022-05-10T22:30:39 EDT" name="afterMethod" finished-at="2022-05-10T22:30:39 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="f()[pri:0, instance:piit.AutomationTrainingProgram.Execution@644baf4a]" started-at="2022-05-10T22:30:51 EDT" name="f" finished-at="2022-05-10T22:30:51 EDT" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:piit.AutomationTrainingProgram.Execution@644baf4a]" started-at="2022-05-10T22:30:51 EDT" name="beforeMethod" finished-at="2022-05-10T22:30:51 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:piit.AutomationTrainingProgram.Execution@644baf4a]" started-at="2022-05-10T22:30:51 EDT" name="afterMethod" finished-at="2022-05-10T22:30:51 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:piit.AutomationTrainingProgram.Execution@644baf4a]" started-at="2022-05-10T22:30:51 EDT" name="afterClass" finished-at="2022-05-10T22:30:51 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:piit.AutomationTrainingProgram.Execution@644baf4a]" started-at="2022-05-10T22:31:32 EDT" name="afterTest" finished-at="2022-05-10T22:31:32 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:piit.AutomationTrainingProgram.Execution@644baf4a]" started-at="2022-05-10T22:31:49 EDT" name="afterSuite" finished-at="2022-05-10T22:31:49 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- piit.AutomationTrainingProgram.Execution -->
+      <class name="piit.AutomationTrainingProgram.Browsersd">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:piit.AutomationTrainingProgram.Browsersd@26d9b808]" started-at="2022-05-10T22:30:39 EDT" name="beforeClass" finished-at="2022-05-10T22:30:49 EDT" duration-ms="9885" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="f()[pri:0, instance:piit.AutomationTrainingProgram.Browsersd@26d9b808]" started-at="2022-05-10T22:30:49 EDT" name="f" finished-at="2022-05-10T22:30:50 EDT" duration-ms="1247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:piit.AutomationTrainingProgram.Browsersd@26d9b808]" started-at="2022-05-10T22:30:50 EDT" name="afterClass" finished-at="2022-05-10T22:30:51 EDT" duration-ms="542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- piit.AutomationTrainingProgram.Browsersd -->
+    </test> <!-- RegressionOfEdge -->
+    <test started-at="2022-05-10T22:30:39 EDT" name="RegressionOfChrome" finished-at="2022-05-10T22:31:34 EDT" duration-ms="55185">
+      <class name="piit.AutomationTrainingProgram.Signout">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:piit.AutomationTrainingProgram.Signout@d9345cd]" started-at="2022-05-10T22:30:54 EDT" name="beforeClass" finished-at="2022-05-10T22:31:02 EDT" duration-ms="7984" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="f()[pri:1, instance:piit.AutomationTrainingProgram.Signout@d9345cd]" started-at="2022-05-10T22:31:02 EDT" name="f" finished-at="2022-05-10T22:31:26 EDT" duration-ms="24683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method signature="TextVerificationMethod()[pri:2, instance:piit.AutomationTrainingProgram.Signout@d9345cd]" started-at="2022-05-10T22:31:26 EDT" name="TextVerificationMethod" finished-at="2022-05-10T22:31:33 EDT" depends-on-methods="piit.AutomationTrainingProgram.Signout.f" duration-ms="6879" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [Please enter your email or mobile number to search for your account.] but found [Please enter your email or mobile number  search for your account.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [Please enter your email or mobile number to search for your account.] but found [Please enter your email or mobile number  search for your account.]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at piit.AutomationTrainingProgram.Signout.TextVerificationMethod(Signout.java:56)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:32)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:467)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TextVerificationMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:piit.AutomationTrainingProgram.Signout@d9345cd]" started-at="2022-05-10T22:31:33 EDT" name="afterClass" finished-at="2022-05-10T22:31:34 EDT" duration-ms="535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- piit.AutomationTrainingProgram.Signout -->
+      <class name="piit.AutomationTrainingProgram.Execution">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:piit.AutomationTrainingProgram.Execution@b9b00e0]" started-at="2022-05-10T22:30:39 EDT" name="beforeTest" finished-at="2022-05-10T22:30:39 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:piit.AutomationTrainingProgram.Execution@b9b00e0]" started-at="2022-05-10T22:30:39 EDT" name="beforeClass" finished-at="2022-05-10T22:30:39 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:piit.AutomationTrainingProgram.Execution@b9b00e0]" started-at="2022-05-10T22:30:39 EDT" name="beforeMethod" finished-at="2022-05-10T22:30:39 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="Test2()[pri:0, instance:piit.AutomationTrainingProgram.Execution@b9b00e0]" started-at="2022-05-10T22:30:39 EDT" name="Test2" finished-at="2022-05-10T22:30:39 EDT" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:piit.AutomationTrainingProgram.Execution@b9b00e0]" started-at="2022-05-10T22:30:39 EDT" name="afterMethod" finished-at="2022-05-10T22:30:39 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:piit.AutomationTrainingProgram.Execution@b9b00e0]" started-at="2022-05-10T22:30:54 EDT" name="beforeMethod" finished-at="2022-05-10T22:30:54 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="f()[pri:0, instance:piit.AutomationTrainingProgram.Execution@b9b00e0]" started-at="2022-05-10T22:30:54 EDT" name="f" finished-at="2022-05-10T22:30:54 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:piit.AutomationTrainingProgram.Execution@b9b00e0]" started-at="2022-05-10T22:30:54 EDT" name="afterMethod" finished-at="2022-05-10T22:30:54 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:piit.AutomationTrainingProgram.Execution@b9b00e0]" started-at="2022-05-10T22:30:54 EDT" name="afterClass" finished-at="2022-05-10T22:30:54 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:piit.AutomationTrainingProgram.Execution@b9b00e0]" started-at="2022-05-10T22:31:34 EDT" name="afterTest" finished-at="2022-05-10T22:31:34 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- piit.AutomationTrainingProgram.Execution -->
+      <class name="piit.AutomationTrainingProgram.Browsersd">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:piit.AutomationTrainingProgram.Browsersd@47d9a273]" started-at="2022-05-10T22:30:39 EDT" name="beforeClass" finished-at="2022-05-10T22:30:47 EDT" duration-ms="7902" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="f()[pri:0, instance:piit.AutomationTrainingProgram.Browsersd@47d9a273]" started-at="2022-05-10T22:30:47 EDT" name="f" finished-at="2022-05-10T22:30:49 EDT" duration-ms="2201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:piit.AutomationTrainingProgram.Browsersd@47d9a273]" started-at="2022-05-10T22:30:49 EDT" name="afterClass" finished-at="2022-05-10T22:30:54 EDT" duration-ms="4830" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- piit.AutomationTrainingProgram.Browsersd -->
+    </test> <!-- RegressionOfChrome -->
+    <test started-at="2022-05-10T22:30:39 EDT" name="RegressionOfFirefox" finished-at="2022-05-10T22:31:49 EDT" duration-ms="70207">
+      <class name="piit.AutomationTrainingProgram.Signout">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:piit.AutomationTrainingProgram.Signout@2e385cce]" started-at="2022-05-10T22:31:07 EDT" name="beforeClass" finished-at="2022-05-10T22:31:18 EDT" duration-ms="11250" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="f()[pri:1, instance:piit.AutomationTrainingProgram.Signout@2e385cce]" started-at="2022-05-10T22:31:18 EDT" name="f" finished-at="2022-05-10T22:31:40 EDT" duration-ms="21653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method signature="TextVerificationMethod()[pri:2, instance:piit.AutomationTrainingProgram.Signout@2e385cce]" started-at="2022-05-10T22:31:40 EDT" name="TextVerificationMethod" finished-at="2022-05-10T22:31:47 EDT" depends-on-methods="piit.AutomationTrainingProgram.Signout.f" duration-ms="7165" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [Please enter your email or mobile number to search for your account.] but found [Please enter your email or mobile number  search for your account.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [Please enter your email or mobile number to search for your account.] but found [Please enter your email or mobile number  search for your account.]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at piit.AutomationTrainingProgram.Signout.TextVerificationMethod(Signout.java:56)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:32)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:467)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TextVerificationMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:piit.AutomationTrainingProgram.Signout@2e385cce]" started-at="2022-05-10T22:31:47 EDT" name="afterClass" finished-at="2022-05-10T22:31:49 EDT" duration-ms="1641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- piit.AutomationTrainingProgram.Signout -->
+      <class name="piit.AutomationTrainingProgram.Execution">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:piit.AutomationTrainingProgram.Execution@2ddc9a9f]" started-at="2022-05-10T22:30:39 EDT" name="beforeTest" finished-at="2022-05-10T22:30:39 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:piit.AutomationTrainingProgram.Execution@2ddc9a9f]" started-at="2022-05-10T22:30:39 EDT" name="beforeClass" finished-at="2022-05-10T22:30:39 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:piit.AutomationTrainingProgram.Execution@2ddc9a9f]" started-at="2022-05-10T22:30:39 EDT" name="beforeMethod" finished-at="2022-05-10T22:30:39 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="Test2()[pri:0, instance:piit.AutomationTrainingProgram.Execution@2ddc9a9f]" started-at="2022-05-10T22:30:39 EDT" name="Test2" finished-at="2022-05-10T22:30:39 EDT" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:piit.AutomationTrainingProgram.Execution@2ddc9a9f]" started-at="2022-05-10T22:30:39 EDT" name="afterMethod" finished-at="2022-05-10T22:30:39 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:piit.AutomationTrainingProgram.Execution@2ddc9a9f]" started-at="2022-05-10T22:31:07 EDT" name="beforeMethod" finished-at="2022-05-10T22:31:07 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="f()[pri:0, instance:piit.AutomationTrainingProgram.Execution@2ddc9a9f]" started-at="2022-05-10T22:31:07 EDT" name="f" finished-at="2022-05-10T22:31:07 EDT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:piit.AutomationTrainingProgram.Execution@2ddc9a9f]" started-at="2022-05-10T22:31:07 EDT" name="afterMethod" finished-at="2022-05-10T22:31:07 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:piit.AutomationTrainingProgram.Execution@2ddc9a9f]" started-at="2022-05-10T22:31:07 EDT" name="afterClass" finished-at="2022-05-10T22:31:07 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:piit.AutomationTrainingProgram.Execution@2ddc9a9f]" started-at="2022-05-10T22:31:49 EDT" name="afterTest" finished-at="2022-05-10T22:31:49 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- piit.AutomationTrainingProgram.Execution -->
+      <class name="piit.AutomationTrainingProgram.Browsersd">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:piit.AutomationTrainingProgram.Browsersd@3e27aa33]" started-at="2022-05-10T22:30:39 EDT" name="beforeClass" finished-at="2022-05-10T22:30:56 EDT" duration-ms="16880" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="f()[pri:0, instance:piit.AutomationTrainingProgram.Browsersd@3e27aa33]" started-at="2022-05-10T22:30:56 EDT" name="f" finished-at="2022-05-10T22:31:05 EDT" duration-ms="8814" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:piit.AutomationTrainingProgram.Browsersd@3e27aa33]" started-at="2022-05-10T22:31:05 EDT" name="afterClass" finished-at="2022-05-10T22:31:07 EDT" duration-ms="2645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- piit.AutomationTrainingProgram.Browsersd -->
+    </test> <!-- RegressionOfFirefox -->
+  </suite> <!-- Adhoc -->
+</testng-results>
